@@ -2,7 +2,7 @@ import { Box, styled, Typography, Link } from '@mui/material';
 import { GitHub, Instagram, Email } from '@mui/icons-material';
 
 const Banner = styled(Box)`
-    background-image: url(https://www.wallpapertip.com/wmimgs/23-236943_us-wallpaper-for-website.jpg);
+    background-image: url(http://mrtaba.ir/image/bg2.jpg);
     width: 100%;
     height: 50vh;
     background-position: left 0px bottom 0px;
@@ -26,23 +26,23 @@ const About = () => {
         <Box>
             <Banner/>
             <Wrapper>
-                <Typography variant="h3">Sukhvinder Singh</Typography>
+                <Typography variant="h3">Manik</Typography>
                 <Text variant="h5">I'm a Computer Science Engineer based in India. 
                     I like to built websites, desktop applications and corporate software.<br />
                     If you are interested, you can contact me anytime.
                     <Box component="span" style={{ marginLeft: 5 }}>
-                        <Link href="https://github.com/SukhvinderSingh786" color="inherit" target="_blank"><GitHub /></Link>
+                        <Link href="https://github.com/Manikkalotra" color="inherit" target="_blank"><GitHub /></Link>
                     </Box>
                 </Text>
                 <Text variant="h5">
                     Need something built or simply want to have chat? Reach out to me on
                     <Box component="span" style={{ marginLeft: 5 }}>
-                        <Link href="https://www.instagram.com/sukhe1270/" color="inherit" target="_blank">
+                        <Link href="https://www.instagram.com/" color="inherit" target="_blank">
                             <Instagram />
                         </Link>
                     </Box>  
                         or send me an Email 
-                        <Link href="mailto:sahilsaini900p@gmail.com?Subject=This is a subject" target="_blank" color="inherit">
+                        <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=pb06manik@gmail.com" target="_blank" color="inherit">
                             <Email />
                         </Link>.
                 </Text>

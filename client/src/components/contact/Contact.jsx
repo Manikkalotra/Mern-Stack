@@ -29,11 +29,11 @@ const Contact = () => {
                 <Typography variant="h3">Getting in touch is easy!</Typography>    
                 <Text variant="h5">
                     Reach out to me on
-                    <Link href="https://www.instagram.com/sukhe1270/" color="inherit" target="_blank">
+                    <Link href="https://www.instagram.com/" color="inherit" target="_blank">
                         <Instagram/>
                     </Link>
                     or send me an Email 
-                    <Link href="mailto:sahilsaini900p@gmail.com?Subject=This is a subject" target="_blank" color="inherit">
+                    <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=pb06manik@gmail.com" target="_blank" color="inherit">
                         <Email />
                     </Link>.
                 </Text>
